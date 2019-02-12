@@ -1,9 +1,9 @@
-# Truck-Platooning
+# Truck Platooning
 A truck platoon consists of group of trucks moving together. One of the major motivations for truck platooning is that a truck moving behind another one, faces much reduced aerodynamic drag. This can account for significant fuel savings (typically in range of 15-20 percent). In this example, a group of trucks on the same lane of the highway having their respective destinations, dynamically try to form a platoon with their respective leading trucks. A truck forms a platoon with the truck ahead only if it anticipates the platooning to be fuel saving.
 
-**Factor in favor of platooning** – A trucks saves fuel while it moves as part of platoon. So, if a truck is having a large overlapping journey patch with the truck ahead, it would save more fuel. 
+**Factors in favor of platooning** – A trucks saves fuel while it moves as part of platoon. So, if a truck is having a large overlapping journey patch with the truck ahead, it would save more fuel. 
 
-**Factor against platooning** - Extra fuel consumption for accelerating/decelerating (for coming closer or matching speed) to form a platoon with the truck ahead.
+**Factors against platooning** - Extra fuel consumption for accelerating/decelerating (for coming closer or matching speed) to form a platoon with the truck ahead.
 
 Decision to form a platoon or otherwise is largely dependent on one of the above factors outweighing the other. 
 Truck platooning strategy allows a smart truck (an independent agent), to form platoon with the truck ahead (if it is fuel efficient) by taking decisions based on the belief/knowledge it has about its environment.
