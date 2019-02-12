@@ -13,10 +13,10 @@ This demo showcases the architecture which allows creating smart-trucks having i
 # Prerequisites
 This model has been tested with MATLAB R2018b. 
 
-To run this model, you need: MATLAB, Automated Driving System Toolbox (ADST), Model Predictive Control Toolbox, Simulink, Simulink Coder, Stateflow.
+To run this model, you need: MATLAB, Automated Driving System Toolbox (ADST), Model Predictive Control Toolbox, Simulink, Simulink Coder, and Stateflow.
 
 # Running the model
 Run the Simulink model **mTruckPlatoon.slx** and see the visualization.
 
 # Further documentation
-See the file **Truck-Platooning.pdf** for detailed documentation covering - Scenario description, Simulink model description, configuration and scenario visualization.
+See the file [Truck-Platooning.pdf](https://github.com/mathworks/Truck-Platooning/blob/master/Truck-Platooning.pdf) for detailed documentation covering - Scenario description, Simulink model description, configuration and scenario visualization.
